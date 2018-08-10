@@ -1,0 +1,451 @@
+{
+       "c1": {
+            "paths": [
+                "group1-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_1/gamma",
+                    "shape": [
+                        16
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_1/beta",
+                    "shape": [
+                        16
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_1/moving_mean",
+                    "shape": [
+                        16
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_1/moving_variance",
+                    "shape": [
+                        16
+                    ]
+                }
+            ]
+        },
+       "c2":   {
+            "paths": [
+                "group2-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_2/gamma",
+                    "shape": [
+                        32
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_2/beta",
+                    "shape": [
+                        32
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_2/moving_mean",
+                    "shape": [
+                        32
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_2/moving_variance",
+                    "shape": [
+                        32
+                    ]
+                }
+            ]
+        },
+        "c3":  {
+            "paths": [
+                "group3-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_3/gamma",
+                    "shape": [
+                        64
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_3/beta",
+                    "shape": [
+                        64
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_3/moving_mean",
+                    "shape": [
+                        64
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_3/moving_variance",
+                    "shape": [
+                        64
+                    ]
+                }
+            ]
+        },
+        "c4":  {
+            "paths": [
+                "group4-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_4/gamma",
+                    "shape": [
+                        128
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_4/beta",
+                    "shape": [
+                        128
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_4/moving_mean",
+                    "shape": [
+                        128
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_4/moving_variance",
+                    "shape": [
+                        128
+                    ]
+                }
+            ]
+        },
+        "c5":  {
+            "paths": [
+                "group5-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_5/gamma",
+                    "shape": [
+                        256
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_5/beta",
+                    "shape": [
+                        256
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_5/moving_mean",
+                    "shape": [
+                        256
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_5/moving_variance",
+                    "shape": [
+                        256
+                    ]
+                }
+            ]
+        },
+        "c6":  {
+            "paths": [
+                "group6-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_6/gamma",
+                    "shape": [
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_6/beta",
+                    "shape": [
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_6/moving_mean",
+                    "shape": [
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_6/moving_variance",
+                    "shape": [
+                        512
+                    ]
+                }
+            ]
+        },
+        "c7":  {
+            "paths": [
+                "group7-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_7/gamma",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_7/beta",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_7/moving_mean",
+                    "shape": [
+                        1024
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_7/moving_variance",
+                    "shape": [
+                        1024
+                    ]
+                }
+            ]
+        },
+         "c8": {
+            "paths": [
+                "group8-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_8/gamma",
+                    "shape": [
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_8/beta",
+                    "shape": [
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_8/moving_mean",
+                    "shape": [
+                        512
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "batch_normalization_8/moving_variance",
+                    "shape": [
+                        512
+                    ]
+                }
+            ]
+        },
+       "c9":   {
+            "paths": [
+                "group9-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "conv2d_1/kernel",
+                    "shape": [
+                        3,
+                        3,
+                        3,
+                        16
+                    ]
+                }
+            ]
+        },
+        "c10":  {
+            "paths": [
+                "group10-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "conv2d_2/kernel",
+                    "shape": [
+                        3,
+                        3,
+                        16,
+                        32
+                    ]
+                }
+            ]
+        },
+        "c11":  {
+            "paths": [
+                "group11-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "conv2d_3/kernel",
+                    "shape": [
+                        3,
+                        3,
+                        32,
+                        64
+                    ]
+                }
+            ]
+        },
+       "c12":   {
+            "paths": [
+                "group12-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "conv2d_4/kernel",
+                    "shape": [
+                        3,
+                        3,
+                        64,
+                        128
+                    ]
+                }
+            ]
+        },
+        "c13":  {
+            "paths": [
+                "group13-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "conv2d_5/kernel",
+                    "shape": [
+                        3,
+                        3,
+                        128,
+                        256
+                    ]
+                }
+            ]
+        },
+         "c14": {
+            "paths": [
+                "group14-shard1of2",
+                "group14-shard2of2"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "conv2d_6/kernel",
+                    "shape": [
+                        3,
+                        3,
+                        256,
+                        512
+                    ]
+                }
+            ]
+        },
+         "c15": {
+            "paths": [
+                "group15-shard1of5",
+                "group15-shard2of5",
+                "group15-shard3of5",
+                "group15-shard4of5",
+                "group15-shard5of5"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "conv2d_7/kernel",
+                    "shape": [
+                        3,
+                        3,
+                        512,
+                        1024
+                    ]
+                }
+            ]
+        },
+         "c16": {
+            "paths": [
+                "group16-shard1of5",
+                "group16-shard2of5",
+                "group16-shard3of5",
+                "group16-shard4of5",
+                "group16-shard5of5"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "conv2d_8/kernel",
+                    "shape": [
+                        3,
+                        3,
+                        1024,
+                        512
+                    ]
+                }
+            ]
+        },
+        "c17":  {
+            "paths": [
+                "group17-shard1of1"
+            ],
+            "weights": [
+                {
+                    "dtype": "float32",
+                    "name": "conv2d_9/kernel",
+                    "shape": [
+                        1,
+                        1,
+                        512,
+                        425
+                    ]
+                },
+                {
+                    "dtype": "float32",
+                    "name": "conv2d_9/bias",
+                    "shape": [
+                        425
+                    ]
+                }
+            ]
+        }
+    }
