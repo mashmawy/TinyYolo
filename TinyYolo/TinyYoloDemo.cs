@@ -12,6 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.Diagnostics;
 
 namespace TinyYolo
 {
@@ -114,14 +115,15 @@ namespace TinyYolo
         delegate void FormInvokWithParam(object param);
         private void Detect()
         {
-           
 
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
             alb.tidy(() =>
             {
                 YoloBoxs = yoloTiny.Detect(this.imageTensor).OrderByDescending(p => p.classProb).ToList();//.FirstOrDefault();
             });
             this.Invoke(new FormInvok(Display));
-           
+            sw.Stop(); 
         }
 
         private void Display( )
